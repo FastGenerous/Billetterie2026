@@ -1,8 +1,8 @@
-import React from 'react';
+import './globals.css';
 
 export const metadata = {
-  title: 'Billetterie Caritative Automobile',
-  description: 'Réservez votre baptême passager et soutenez notre cause.',
+  title: 'Billetterie Fast & Generous',
+  description: 'Réservation de baptêmes caritatifs',
 };
 
 export default function RootLayout({
@@ -12,10 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <head>
-        <script src="https://cdn.tailwindcss.com"></script>
-      </head>
-      <body className="bg-slate-900 text-slate-100 min-h-screen antialiased">
+      <body className="bg-slate-900 text-white min-h-screen">
         {children}
       </body>
     </html>
